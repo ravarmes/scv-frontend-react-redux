@@ -10,7 +10,7 @@
 
 
 ## Tela(s)
-![Tela Empréstimo](https://github.com/ravarmes/scv-frontend-react-redux/blob/master/public/images/telas/tela1.png)
+![Tela Empréstimo](https://github.com/ravarmes/scv-frontend-react-redux/blob/master/public/images/telas/tela1.gif)
 
 # Implantação do SCV Frontend React Redux
 [GitHub Pages] (https://ravarmes.github.io/)
