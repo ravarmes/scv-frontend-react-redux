@@ -6,7 +6,7 @@
   Sistema de Controle da Videolocadora - FrontEnd - React e Redux
 </h3>
 
-<p align="center">Subtítulo</p>
+<p align="center">Exemplo de um Sistema para Gerenciamento de Locadora</p>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ravarmes/scv-frontend-react-redux?color=%2304D361">
@@ -30,7 +30,7 @@
 </p>
 
 ## :computer: Instalação e execução
-
+<a name="-instalacao"/></a>
 1. Faça um clone desse repositório;
 2. Entre na pasta rodando `cd scv-frontend-react-redux`;
 3. Rode `yarn install` para instalar as dependências;
@@ -38,17 +38,17 @@
 5. Abra `http://localhost:3000` para ver o projeto no navegador.
 
 ## :clapper: Tela(s)
-
+<a name="-telas"/></a>
 ![Tela Empréstimo](https://github.com/ravarmes/scv-frontend-react-redux/blob/master/public/images/telas/tela1.gif)
 
 ## :link: Links
-
-- [GitHub Pages] (https://ravarmes.github.io/) - Implantação do SCV Frontend React Redux;
-- [Heroku] (https://scv-backend-spring.herokuapp.com/) - Implantação do SCV Backend Spring Boot;
-- [Postman] (https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot
+<a name="-links"/></a>
+- [GitHub Pages](https://ravarmes.github.io/) - Implantação do SCV Frontend React Redux;
+- [Heroku](https://scv-backend-spring.herokuapp.com/) - Implantação do SCV Backend Spring Boot;
+- [Postman](https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot
 
 ## :memo: Licença
-
+<a name="-licenca"/></a>
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ## :email: Contato
