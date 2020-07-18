@@ -57,4 +57,4 @@ Rafael Vargas Mesquita - [GitHub](https://github.com/ravarmes) - [LinkedIn](http
 
 ---
 
-Feito com ♥ by Rafael Vargas Mesquita :wink:
+Feito com ♥ by Rafael Vargas :wink:
