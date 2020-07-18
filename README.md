@@ -45,10 +45,10 @@
 <a name="-links"/></a>
 - [GitHub Pages](https://ravarmes.github.io/) - Implantação do SCV Frontend React Redux;
 - [Heroku](https://scv-backend-spring.herokuapp.com/) - Implantação do SCV Backend Spring Boot;
-- [Postman](https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot
+- [Postman](https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot.
 
-## :memo: Licença
-<a name="-licenca"/></a>
+## :memo: <a name="-licenca"/>Licença</a>
+
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ## :email: Contato
