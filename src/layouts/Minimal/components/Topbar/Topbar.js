@@ -27,7 +27,8 @@ const Topbar = props => {
         <RouterLink to="/">
           <img
             alt="Logo"
-            src="/images/logos/rvm.png"
+            src={`${process.env.PUBLIC_URL}/images/logos/rvm.jpg`}
+            height="50"
           />
         </RouterLink>
       </Toolbar>

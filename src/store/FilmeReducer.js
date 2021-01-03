@@ -145,7 +145,6 @@ export function remove(id) {
 }
 
 export function detail(filme) {
-    console.log('function detail(filme): ', JSON.stringify(filme));
     return dispatch => {
         dispatch({ type: ACTIONS.DETAIL, filme: filme });
     }

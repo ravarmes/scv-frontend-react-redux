@@ -4,6 +4,7 @@ import { Grid, Typography } from '@material-ui/core';
 import LocalMoviesIcon from '@material-ui/icons/LocalMovies';
 
 const useStyles = makeStyles(theme => ({
+  
   root: {
     backgroundColor: theme.palette.background.default,
     height: '80%'
@@ -22,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundImage: 'url(/images/telas/fundo.png)',
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/telas/fundo.png)`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center'
