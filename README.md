@@ -44,7 +44,7 @@
 
 ## :link: Links <a name="-links"/></a>
 
-- [GitHub Pages](https://ravarmes.github.io/) - Implantação do SCV Frontend React Redux;
+- [GitHub Pages](https://ravarmes.github.io/scv-frontend-react-redux/) - Implantação do SCV Frontend React Redux;
 - [Heroku](https://scv-backend-spring.herokuapp.com/) - Implantação do SCV Backend Spring Boot;
 - [Postman](https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot
 
