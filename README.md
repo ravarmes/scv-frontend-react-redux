@@ -38,6 +38,11 @@
 4. Rode `yarn start` para iniciar o servidor de desenvolvimento;
 5. Abra `http://localhost:3000` para ver o projeto no navegador.
 
+Em caso de erro: "Node Sass version 7.0.1 is incompatible with ^4.0.0"
+Execute:
+yarn remove node-sass
+yarn add -D sass
+
 ## :clapper: Tela(s) <a name="-telas"/></a>
 
 ![Tela Empréstimo](https://github.com/ravarmes/scv-frontend-react-redux/blob/master/public/images/telas/tela1.gif)

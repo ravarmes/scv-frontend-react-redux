@@ -273,8 +273,8 @@ const FilmeToolbar = props => {
         <div className={classes.row}>
           <Grid container>
             <Grid item md="3">
-              <FormControl required fullWidth className={classes.formControl}>
-                <InputLabel id="label_diretores">Diretor</InputLabel>
+              <FormControl fullWidth className={classes.formControl}>
+                <InputLabel id="label_diretores">Diretor *</InputLabel>
                 <Select id="select_diretores" value={idDiretor} onChange={e => handleChangeSelectDiretores(e)}>
                   {renderOptionsDiretores()}
                 </Select>
@@ -286,8 +286,8 @@ const FilmeToolbar = props => {
               </IconButton>
             </Grid>
             <Grid item md="3">
-              <FormControl required fullWidth className={classes.formControl}>
-                <InputLabel id="label_artistas">Artista</InputLabel>
+              <FormControl fullWidth className={classes.formControl}>
+                <InputLabel id="label_artistas">Artista *</InputLabel>
                 <Select id="select_artistas" value={idArtista} onChange={e => handleChangeSelectArtistas(e)}>
                   {renderOptionsArtistas()}
                 </Select>

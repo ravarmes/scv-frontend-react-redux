@@ -221,16 +221,16 @@ const EmprestimoToolbar = props => {
         <div className={classes.row}>
           <Grid container>
             <Grid item md="6">
-              <FormControl required fullWidth className={classes.formControl}>
-                <InputLabel id="label_filmes">Filme</InputLabel>
+              <FormControl fullWidth className={classes.formControl}>
+                <InputLabel id="label_filmes">Filme *</InputLabel>
                 <Select id="select_filmes" value={idFilme} onChange={e => handleChangeSelectFilmes(e)}>
                   {renderOptionsFilmes()}
                 </Select>
               </FormControl>
             </Grid>
             <Grid item md="4">
-              <FormControl required fullWidth className={classes.formControl}>
-                <InputLabel id="label_fitas">Fita</InputLabel>
+              <FormControl fullWidth className={classes.formControl}>
+                <InputLabel id="label_fitas">Fita *</InputLabel>
                 <Select id="select_fitas" value={idFita} onChange={e => handleChangeSelectFitas(e)}>
                   {renderOptionsFitas()}
                 </Select>

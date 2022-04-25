@@ -7,3 +7,4 @@ export { default as CidadeList } from './CidadeList';
 export { default as EmprestimoList } from './EmprestimoList';
 export { default as FilmeList } from './FilmeList';
 export { default as UFList } from './UFList';
+export { default as ReportEmprestimosByClientes } from './ReportEmprestimosByClientes';

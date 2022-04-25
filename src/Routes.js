@@ -12,6 +12,7 @@ import {
   EmprestimoList as EmprestimoListView,
   FilmeList as FilmeListView,
   UFList as UFListView,
+  ReportEmprestimosByClientes as ReportEmprestimosByClientesView,
   SignIn as SignInView
 } from './views';
 
@@ -64,6 +65,12 @@ const Routes = () => {
         exact
         layout={MainLayout}
         path="/ufs"
+      />
+      <RouteWithLayout
+        component={ReportEmprestimosByClientesView}
+        exact
+        layout={MainLayout}
+        path="/report/findTotaisAndQuantidadesEmprestimosOfClientesByPeriodo"
       />
       <RouteWithLayout
         component={SignInView}

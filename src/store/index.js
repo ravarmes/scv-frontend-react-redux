@@ -11,6 +11,7 @@ import { FilmeReducer } from './FilmeReducer'
 import { FitaReducer } from './FitaReducer'
 import { TipoDeFilmeReducer } from './TipoDeFilmeReducer'
 import { UFReducer } from './UFReducer'
+import { ReportEmprestimosReducer } from './ReportEmprestimosReducer'
 
 const mainReducer = combineReducers({
     alertReducer: AlertReducer,
@@ -23,7 +24,8 @@ const mainReducer = combineReducers({
     filmeReducer: FilmeReducer,
     fitaReducer: FitaReducer,
     tipoDeFilmeReducer: TipoDeFilmeReducer,
-    ufReducer: UFReducer
+    ufReducer: UFReducer,
+    reportEmprestimosReducer: ReportEmprestimosReducer
 })
 
 export default mainReducer;

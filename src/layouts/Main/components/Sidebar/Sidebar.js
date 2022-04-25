@@ -9,6 +9,7 @@ import EditLocationIcon from '@material-ui/icons/EditLocation';
 import MovieIcon from '@material-ui/icons/Movie';
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import StarIcon from '@material-ui/icons/Star';
+import AssessmentIcon from '@material-ui/icons/Assessment';
 //import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
 
 import { Profile, SidebarNav } from './components';
@@ -76,6 +77,11 @@ const Sidebar = props => {
       title: 'UFs',
       href: '/ufs',
       icon: <EditLocationIcon />
+    },
+    {
+      title: 'Empréstimos / Clientes',
+      href: '/report/findTotaisAndQuantidadesEmprestimosOfClientesByPeriodo',
+      icon: <AssessmentIcon />
     },
     {
       title: 'Login',
