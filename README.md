@@ -31,7 +31,7 @@
 
 ## :computer: Instalação e execução <a name="-instalacao"/></a>
 
-0. Instale o gerenciador de dependências [Node](https://nodejs.org/en/download/);
+0. Instale o [Node](https://nodejs.org/en/download/);
 1. Faça um clone desse repositório;
 2. Entre na pasta rodando `cd scv-frontend-react-redux`;
 3. Rode `yarn install` para instalar as dependências;
