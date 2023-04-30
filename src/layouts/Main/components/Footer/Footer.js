@@ -29,7 +29,7 @@ const Footer = props => {
         >
           Rafael Vargas Mesquita
         </Link>
-        . 2020
+        . 2023
       </Typography>
       <Typography variant="caption">
         Aplicação Front-End utilizando React e Redux - Back-End em Spring está em{' '} 

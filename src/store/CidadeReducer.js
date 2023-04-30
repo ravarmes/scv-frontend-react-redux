@@ -30,6 +30,9 @@ export const CidadeReducer = (state = inicialState, action) => {
         case ACTIONS.INSERT:
             const lista = [...state.cidades, action.cidade]
             return { ...state, cidades: lista }
+
+            //const lista = [...state.cidades, action.cidade]
+            //return { ...state, cidades: lista }
         case ACTIONS.REMOVE:
             const id = action.id;
             const cidades = state.cidades.filter(cidade => cidade.id !== id)

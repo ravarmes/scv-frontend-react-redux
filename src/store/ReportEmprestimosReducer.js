@@ -37,9 +37,6 @@ export const ReportEmprestimosReducer = (state = inicialState, action) => {
 }
 
 export function findTotaisAndQuantidadesEmprestimosOfClientesByPeriodo(filtro) {
-    console.log('findTotaisAndQuantidadesEmprestimosOfClientesByPeriodo')
-    console.log('filtro.di: ' + filtro.di)
-    console.log('filtro.df: ' + filtro.df)
     return dispatch => {
         http.get(`/emprestimos/findTotaisAndQuantidadesEmprestimosOfClientesByPeriodo/${filtro.di}/${filtro.df}`).then(response => {
             dispatch({ type: ACTIONS.FINDTOTAISCLIENTES, report_rows: response.data })

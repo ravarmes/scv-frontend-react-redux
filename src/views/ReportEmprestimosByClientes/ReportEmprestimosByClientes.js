@@ -21,8 +21,7 @@ const ReportEmprestimosByClientes = (props) => {
   const classes = useStyles();
 
   useEffect(() => {
-    console.log("useEffect")
-    props.findTotaisAndQuantidadesEmprestimosOfClientesByPeriodo("2020-01-01","2020-12-31");
+    
   }, [])
 
   return (

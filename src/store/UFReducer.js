@@ -17,12 +17,14 @@ const ACTIONS = {
 
 const inicialState = {
     ufs: [],
-    uf: { id: 0, sigla: '', nome: '' }
+    //uf: { id: 0, sigla: '', nome: '' }
+    uf: { id: 0, sigla: '', nome: ''}
 }
 
 export const UFReducer = (state = inicialState, action) => {
     switch (action.type) {
         case ACTIONS.FINDALL:
+            console.log("\n\nUFReducer::ACTIONS.FINDALL");
             return { ...state, ufs: action.ufs }
         case ACTIONS.INSERT:
             const lista = [...state.ufs, action.uf]
@@ -52,8 +54,10 @@ export const UFReducer = (state = inicialState, action) => {
 }
 
 export function findAll() {
+    console.log("\n\nUFReducer::findAll");
     return dispatch => {
         http.get('/ufs').then(response => {
+            console.log("response.data: " , response.data);
             dispatch({ type: ACTIONS.FINDALL, ufs: response.data })
         })
     }

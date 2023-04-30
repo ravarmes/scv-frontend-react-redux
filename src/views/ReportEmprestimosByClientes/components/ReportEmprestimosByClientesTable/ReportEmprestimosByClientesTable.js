@@ -56,10 +56,10 @@ const ReportEmprestimosByClientesTable = props => {
               <TableBody>
                 {report_rows.map(report_row => {
                   return (
-                    <TableRow key={report_row[0]}>
-                      <TableCell>{report_row[0]}</TableCell>
-                      <TableCell>{report_row[1]}</TableCell>
-                      <TableCell>{report_row[2]}</TableCell>
+                    <TableRow key={report_row.nome}>
+                      <TableCell>{report_row.nome}</TableCell>
+                      <TableCell>{report_row.total}</TableCell>
+                      <TableCell>{report_row.quantidade}</TableCell>
                     </TableRow>
                   )
                 })

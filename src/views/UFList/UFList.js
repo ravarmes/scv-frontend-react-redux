@@ -20,6 +20,7 @@ const UFList = (props) => {
   const classes = useStyles();
 
   useEffect(() => {
+    console.log("UFList::useEffect::props.findAll();");
     props.findAll();
   }, [])
 
