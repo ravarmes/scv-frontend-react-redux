@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const lock = require\\('./package-lock.json'\\); const tmp = lock.packages?.['node_modules/tmp'] || lock.dependencies?.['tmp']; console.log\\('tmp version:', tmp?.version\\); console.log\\('tmp resolved:', tmp?.resolved\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(npm show *)",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const v=JSON.parse\\(d\\); console.log\\('Latest versions:', v.slice\\(-5\\).join\\(', '\\)\\)\")",
+      "Bash(npm ls *)"
+    ]
+  }
+}
